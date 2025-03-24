@@ -1,0 +1,28 @@
+// Couleurs
+$primary-color: #8bceb6;
+$secondary-color: #f0f0f0;
+$text-color: black;
+$accent-color: #208368;
+$button-color: #fff;
+$button-text-color: $text-color;
+
+// Espacements
+$section-padding: 50px 0;
+$container-padding: 0 20px;
+
+// Polices
+$font-family: sans-serif;
+$font-size-base: 16px;
+$font-size-mobile: 10px;
+$font-size-h1: 3em;
+$font-size-h2: 2em;
+$font-size-h3: 1.5em;
+$font-size-h4: 1em;
+
+// Bordures
+$border-radius: 5px;
+
+// Breakpoints (pour le responsive design)
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 3000px;

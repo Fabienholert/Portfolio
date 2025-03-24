@@ -1,0 +1,44 @@
+@use "../../divers/variablesmixin/variables" as vars;
+@use "../../divers/variablesmixin/mixins" as mix;
+
+.projet__container {
+  padding: 20px;
+  font-family: vars.$font-family;
+  color: vars.$text-color;
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: vars.$primary-color;
+    text-align: center;
+  }
+
+  .card-list {
+    display: grid;
+    grid-template-columns: 2fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  @include mix.tablet {
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    & .card-list {
+      grid-template-columns: 2fr;
+    }
+  }
+
+  @include mix.mobile {
+    h2 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+
+    & .card-list {
+      grid-template-columns: 1fr;
+    }
+  }
+}

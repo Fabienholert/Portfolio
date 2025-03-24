@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  height: 100px;
+  background: #8bceb6;
+
+  .footer__logoreseaux {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  img {
+    flex: display;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+  }
+}

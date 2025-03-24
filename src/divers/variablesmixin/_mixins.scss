@@ -1,0 +1,42 @@
+@use "./variables" as vars;
+@use "sass:color";
+
+@mixin center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-style {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: vars.$button-color;
+  color: vars.$button-text-color;
+  text-decoration: none;
+  border-radius: vars.$border-radius;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: color.scale(vars.$button-color, $lightness: -10%);
+  }
+}
+
+// Responsive design
+@mixin mobile {
+  @media (max-width: vars.$breakpoint-tablet - 1px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: vars.$breakpoint-tablet) and (max-width: vars.$breakpoint-desktop - 1px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: vars.$breakpoint-desktop) {
+    @content;
+  }
+}

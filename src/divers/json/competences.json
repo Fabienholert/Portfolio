@@ -1,0 +1,37 @@
+{
+  "competences": {
+    "FrontEnd": {
+      "technologie": [
+        {
+          "name": "JavaScript",
+          "image": "/images/javascript.png"
+        },
+        { "name": "React", "image": "/images/react.png" },
+        { "name": "HTML", "image": "/images/html.png" },
+        { "name": "CSS", "image": "/images/css.png" },
+        { "name": "SASS", "image": "/images/sass.png" }
+      ]
+    },
+    "BackEnd": {
+      "technologie": [
+        { "name": "Node.js", "image": "/images/nodejs.png" },
+        { "name": "Express.js", "image": "/images/express.png" },
+        { "name": "MongoDB", "image": "/images/mongodb.png" },
+        { "name": "Mongoose", "image": "/images/mongoose.png" }
+      ]
+    },
+    "Outils": {
+      "technologie": [
+        { "name": "GitHub", "image": "/images/github.png" },
+        {
+          "name": "Visual Studio Code",
+          "image": "/images/vscode.png"
+        },
+        {
+          "name": "Notion",
+          "image": "/images/notion.png"
+        }
+      ]
+    }
+  }
+}

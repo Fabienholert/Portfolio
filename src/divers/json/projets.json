@@ -1,0 +1,310 @@
+[
+  {
+    "id": "portfolio-developpeur",
+    "categorie": "Frontend",
+    "card": {
+      "details": {
+        "title": "Création d'un Portfolio de Développeur Web",
+        "description": "Réalisation d'un portfolio en ligne pour présenter mes compétences, projets et objectifs de carrière en tant que développeur web.",
+        "tags": [
+          "Portfolio",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Design Web"
+        ],
+        "info": "Projet de préparation à la recherche d'emploi."
+      },
+      "image": "./divers/images/projet8.png",
+      "title": "Portfolio Développeur"
+    },
+    "modal": {
+      "title": "Développement d'un Portfolio de Développeur Web",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Ce projet vise à créer un portfolio en ligne pour mettre en avant mes compétences, les projets réalisés et mon objectif de carrière en tant que développeur web. Il inclut un bilan des compétences, la clarification de l'objectif d'embauche et le développement du site portfolio lui-même."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent l'auto-évaluation honnête des compétences, la conception et le développement d'un site portfolio attrayant et fonctionnel, la mise en valeur des compétences et des projets, et l'optimisation du code et de l'interface pour démontrer mes compétences techniques."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien GitHub",
+              "href": "https://github.com/Fabienholert/Portfolio"
+            }
+          ],
+          "technologies": [
+            "/images/html.png",
+            "/images/css.png",
+            "/images/javascript.png",
+            "/images/react.png"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "menu-maker",
+    "categorie": "Gestion de Projet",
+    "card": {
+      "details": {
+        "title": "Préparation et Planification du Projet Menu Maker",
+        "description": "Développement d'un Menu Maker pour l'agence Webgencia, incluant la création des spécifications techniques, du tableau Kanban et du système de veille technologique.",
+        "tags": [
+          "Gestion de Projet",
+          "Spécifications Techniques",
+          "Kanban",
+          "Veille Technologique"
+        ],
+        "info": "Mission de remplacement pour la préparation et la planification du projet."
+      },
+      "image": "/images/projet7.png",
+      "title": "Menu Maker - Planification"
+    },
+    "modal": {
+      "title": "Planification et Spécifications Techniques du Menu Maker",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "En remplacement du Product Owner, la mission consiste à préparer et planifier le développement d'un Menu Maker pour un client de l'agence Webgencia. Cela inclut la rédaction du document de spécifications techniques, la création et la gestion du tableau Kanban, et la mise en place d'un système de veille technologique."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent la compréhension des besoins du client, la rédaction de spécifications techniques claires et complètes, la création d'un tableau Kanban efficace pour la gestion des tâches, la mise en place d'un système de veille pour rester informé des dernières technologies, et la présentation du projet à Soufiane et au client."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien Kanban (Notion)",
+              "href": "https://purrfect-climb-5b4.notion.site/1a634fd5eaa680d1bbcbc84ba4fdce4e?v=1a634fd5eaa681288306000c0b580f1a"
+            }
+          ],
+          "technologies": ["/images/notion.png"]
+        }
+      }
+    }
+  },
+  {
+    "id": "mon-vieux-grimoire",
+    "categorie": "Backend",
+    "card": {
+      "details": {
+        "title": "API Back-End pour Mon Vieux Grimoire",
+        "description": "Développement back-end de l'API pour un site de référencement et de notation de livres, en collaboration avec un développeur front-end.",
+        "tags": ["Node.js", "Express", "MongoDB", "API", "Back-end"],
+        "info": "Mission freelance en partenariat avec un développeur front-end expérimenté."
+      },
+      "image": "/images/projet6.png",
+      "title": "Mon Vieux Grimoire"
+    },
+    "modal": {
+      "title": "Développement Back-End API - Mon Vieux Grimoire",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Développement de l'API back-end pour le site \"Mon Vieux Grimoire\", une plateforme de référencement et de notation de livres. Le projet est réalisé en collaboration avec un développeur front-end (Kévin) qui s'occupe de l'interface utilisateur en React."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis incluent la mise en place d'une API robuste et performante, le respect des spécifications techniques de l'API fournies par Kévin, l'intégration avec le front-end React, l'optimisation des images (Green Code) et la gestion de la base de données pour stocker les livres et les notes des utilisateurs."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien back-end GitHub",
+              "href": "https://github.com/Fabienholert/backend"
+            }
+          ],
+          "technologies": [
+            "/images/nodejs.png",
+            "/images/express.png",
+            "/images/mongodb.png"
+          ],
+          "categorie": "Backend"
+        }
+      }
+    }
+  },
+  {
+    "id": "kasa",
+    "categorie": "Frontend",
+    "card": {
+      "details": {
+        "title": "Refonte du Site Kasa (React)",
+        "description": "Développement front-end en React pour la refonte du site de location d'appartements Kasa.",
+        "tags": [
+          "React",
+          "JavaScript",
+          "Frontend",
+          "Vite",
+          "Responsive Design"
+        ],
+        "info": "Mission freelance pour implémenter la nouvelle interface utilisateur."
+      },
+      "image": "/images/projet5.png",
+      "title": "Kasa"
+    },
+    "modal": {
+      "title": "Développement Front-end React - Refonte du Site Kasa",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Développement de l'application React complète pour la refonte du site Kasa, une entreprise de location d'appartements entre particuliers. Le projet inclut l'implémentation des composants React, des routes React Router, en suivant les maquettes Figma fournies et les coding guidelines de Kasa."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent l'utilisation de Vite pour la création de l'application React, le travail sans back-end initial (utilisation d'un fichier JSON de données), le respect des maquettes Figma (responsives), l'implémentation des fonctionnalités spécifiques de la galerie d'images et des composants Collapse, et le respect des coding guidelines de Kasa."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers le prototype du site",
+              "href": "lien_vers_le_prototype_site_kasa"
+            },
+            {
+              "text": "Lien GitHub",
+              "href": "https://github.com/Fabienholert/-projet5-kasa"
+            }
+          ],
+          "technologies": ["/images/javascript.png", "/images/react.png"]
+        }
+      }
+    }
+  },
+  {
+    "id": "nina-carducci-seo",
+    "categorie": "Frontend",
+    "card": {
+      "details": {
+        "title": "Optimisation SEO du Site Nina Carducci",
+        "description": "Optimisation SEO, performances et accessibilité du site web de la photographe Nina Carducci.",
+        "tags": [
+          "SEO",
+          "Performance",
+          "Accessibilité",
+          "HTML",
+          "CSS",
+          "JavaScript"
+        ],
+        "info": "Mission freelance pour améliorer la visibilité et l'expérience utilisateur."
+      },
+      "image": "/images/projet4.png",
+      "title": "SEO Nina Carducci"
+    },
+    "modal": {
+      "title": "Optimisation SEO et Corrections du Site Nina Carducci",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "En tant que développeur freelance, la mission consiste à optimiser le site web de la photographe Nina Carducci pour améliorer son référencement, ses performances, son accessibilité et corriger les bugs existants."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis comprennent l'optimisation des images et du code, l'implémentation du référencement local avec Schema.org, l'ajout des métas pour les réseaux sociaux, l'amélioration de l'accessibilité, la correction des bugs dans la galerie et le filtre de catégories, et la production d'un rapport d'optimisation détaillé."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien vers le site Nina Carducci",
+              "href": "https://nina-carducci.github.io"
+            },
+            {
+              "text": "Lien GitHub",
+              "href": "https://github.com/Fabienholert/Projet4"
+            }
+          ],
+          "technologies": [
+            "/images/html.png",
+            "/images/css.png",
+            "/images/javascript.png"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "architecte-portfolio",
+    "categorie": "Frontend",
+    "card": {
+      "details": {
+        "title": "Portfolio Architecte d'Intérieur",
+        "description": "Développement front-end du site portfolio d'une architecte d'intérieur pour l'agence ArchiWebos.",
+        "tags": ["React", "JavaScript", "API", "Frontend"],
+        "info": "Projet de renfort au sein d'une équipe de développement front-end."
+      },
+      "image": "/images/projet3.png",
+      "title": "Portfolio Architecte"
+    },
+    "modal": {
+      "title": "Développement Front-end - Portfolio Architecte d'Intérieur",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Intégré à l'équipe front-end de l'agence ArchiWebos, le projet consiste à développer le site portfolio d'une architecte d'intérieur. Les missions comprennent le développement de la page de présentation des travaux, la page de connexion de l'administrateur et une modale d'upload de médias."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les défis incluent l'intégration du design Figma, l'utilisation du code back-end existant, le développement de la page de connexion et de la modale d'upload à partir de zéro."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "Lien GitHub",
+              "href": "https://github.com/Fabienholert/Projet3"
+            }
+          ],
+          "technologies": [
+            "/images/react.png",
+            "/images/javascript.png",
+            "/images/html.png",
+            "/images/css.png"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "booki",
+    "categorie": "Frontend",
+    "card": {
+      "details": {
+        "title": "Booki - Trouvez votre hébergement et vos activités",
+        "description": "Intégration de l'interface du site Booki (HTML/CSS) permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "tags": ["HTML", "CSS", "Responsive Design"],
+        "info": "Projet d'alternance au sein de la start-up Booki."
+      },
+      "image": "/images/projet2.png",
+      "title": "Booki"
+    },
+    "modal": {
+      "title": "Booki - Intégration d'une Interface Web",
+      "content": {
+        "context": {
+          "title": "Contexte du Projet",
+          "description": "Développement de l'interface web du site Booki, une plateforme permettant de trouver des hébergements et des activités dans différentes villes. Le projet est réalisé en collaboration avec la CTO et l'UI designer de l'entreprise."
+        },
+        "challenge": {
+          "title": "Défis Rencontrés",
+          "description": "Les principaux défis étaient de respecter les maquettes (desktop, tablette et mobile), d'assurer la responsivité du site, et de suivre les spécifications et contraintes techniques fournies par l'équipe. Il a aussi fallu bien organiser le code et versionner le projet avec Git."
+        },
+        "rightColon": {
+          "links": [
+            {
+              "text": "lien GitHub",
+              "href": "https://github.com/Fabienholert/projet-2"
+            }
+          ],
+          "technologies": [
+            "/images/html.png",
+            "/images/css.png",
+            "/images/github.png"
+          ]
+        }
+      }
+    }
+  }
+]

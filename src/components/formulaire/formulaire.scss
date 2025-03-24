@@ -1,0 +1,60 @@
+@use "../../divers/variablesmixin/variables" as vars;
+@use "../../divers/variablesmixin/mixins" as mixins;
+@use "sass:color";
+
+// Styles généraux du formulaire
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: vars.$font-family; // Utilisez la variable de police
+  color: vars.$text-color; // Utilisez la variable de couleur du texte
+
+  div {
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: color.scale(
+      vars.$text-color,
+      $lightness: -20%
+    ); // Assombrir la couleur du label
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid vars.$accent-color; // Utilisez la variable de couleur d'accent
+    border-radius: vars.$border-radius; // Utilisez la variable de bordure
+    font-size: vars.$font-size-base; // Utilisez la variable de taille de police de base
+    color: vars.$text-color; // Utilisez la variable de couleur du texte
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+      border-color: vars.$primary-color;
+      outline: none;
+    }
+  }
+
+  textarea {
+    height: 150px;
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    @include mixins.button-style;
+  }
+
+  @include mixins.tablet {
+    max-width: 80%;
+  }
+
+  @include mixins.desktop {
+    max-width: 70%;
+  }
+}

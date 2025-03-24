@@ -1,0 +1,203 @@
+@use "../../divers/variablesmixin/variables" as vars;
+@use "../../divers/variablesmixin/mixins" as m;
+
+.home {
+  font-family: vars.$font-family;
+  font-size: vars.$font-size-base;
+
+  //** banner//
+  &__banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr; // Par défaut, 2 colonnes
+    background-color: vars.$primary-color;
+    width: 100%;
+
+    @include m.mobile {
+      grid-template-columns: 1fr; // Sur mobile, 1 colonne
+      text-align: center;
+    }
+  }
+
+  &__dev {
+    width: 100%;
+    object-fit: cover;
+    max-width: 600px; // Conservez cette limite si vous le souhaitez
+
+    @include m.tablet {
+      max-width: none; // Supprimez la limite sur tablette
+    }
+
+    @include m.desktop {
+      width: 50%; // Redéfinissez la largeur à 50% sur desktop (facultatif)
+    }
+  }
+
+  &__banner-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+
+    @include m.mobile {
+      width: 100%;
+    }
+  }
+
+  &__nom {
+    font-size: vars.$font-size-h2;
+  }
+
+  &__button {
+    @include m.button-style;
+    width: 30%;
+    margin: 0 auto;
+
+    @include m.mobile {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+  }
+
+  //** Présentation//
+
+  &__presentation {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+    @include m.tablet {
+      flex-direction: row;
+    }
+
+    @include m.desktop {
+      flex-direction: row;
+    }
+  }
+  &__presentation-text {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    align-items: center;
+
+    @include m.tablet {
+      width: 50%;
+    }
+
+    @include m.desktop {
+      width: 50%;
+    }
+
+    @include m.mobile {
+      width: 80%;
+    }
+  }
+
+  &__presentation-titre {
+    font-size: vars.$font-size-h1;
+  }
+
+  &__description {
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  &__presentation-image {
+    width: 45%;
+
+    @include m.tablet {
+      width: 50%;
+    }
+
+    @include m.desktop {
+      width: 50%;
+    }
+  }
+
+  &__photo {
+    border-radius: vars.$border-radius;
+    margin: 20px auto;
+    display: block;
+    float: right;
+    border-radius: 50%;
+    width: 80%;
+    object-fit: contain;
+  }
+
+  //** competence
+
+  &__competence {
+    background-color: vars.$primary-color;
+
+    &-titre {
+      font-size: vars.$font-size-h2;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+    }
+    .competence__container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      th {
+        font-size: vars.$font-size-h3;
+        @include m.mobile {
+          font-size: vars.$font-size-h3;
+        }
+      }
+
+      td {
+        text-align: center;
+        vertical-align: middle;
+      }
+      img {
+        max-width: 100px;
+        @include m.mobile {
+          width: 50%;
+          height: 50%;
+        }
+      }
+    }
+  }
+  // Projet//
+
+  &__projet {
+    text-align: center;
+
+    &-titre {
+      font-size: vars.$font-size-h2;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    .projet__container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .card-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr; // Par défaut, 2 colonnes
+      gap: 20px;
+      margin-top: 20px;
+
+      @include m.mobile {
+        grid-template-columns: 1fr; // Sur mobile, 1 colonne
+      }
+    }
+  }
+
+  //formulaire de contact
+
+  &__contact {
+    text-align: center;
+    background-color: vars.$primary-color;
+
+    &-titre {
+      font-size: vars.$font-size-h2;
+      margin-bottom: 20px;
+    }
+  }
+}
