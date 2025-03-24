@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div id="accueil" className="App">
       <ConfigModal />
-      <BrowserRouter basename="fabien-portfolio">
+      <BrowserRouter basename="/fabien-portfolio">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Home />} />
