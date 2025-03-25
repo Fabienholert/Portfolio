@@ -24,7 +24,7 @@ export default function Header() {
           </li>
           <li className="header__item">
             <a href="#mes_projets" className="header__lien">
-              Mes projets
+              Projets
             </a>
           </li>
           <li className="header__item">
