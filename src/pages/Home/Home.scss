@@ -64,6 +64,7 @@
   //** Présentation//
 
   &__presentation {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -88,6 +89,7 @@
       object-fit: cover;
       margin: 0;
       border-radius: 50%;
+      margin-bottom: 20px;
 
       @include m.tablet {
         max-width: none; // Supprimez la limite sur tablette
@@ -97,12 +99,18 @@
         width: 100%;
       }
     }
+    &-text {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   //** competence
 
   &__competence {
     background-color: vars.$primary-color;
+    margin-top: 30px;
+    padding-top: 10px;
 
     &-titre {
       font-size: vars.$font-size-h2;
