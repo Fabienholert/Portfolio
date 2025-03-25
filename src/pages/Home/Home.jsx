@@ -30,13 +30,13 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section id="presentation" class="home__presentation">
-        <h2 class="home__presentation-titre">Présentation</h2>
-        <div class="home__presentation-container">
-          <div class="home__presentation-photo">
-            <img src={Dev} alt="photo de moi" class="home__photo" />
+      <section id="presentation" className="home__presentation">
+        <h2 className="home__presentation-titre">Présentation</h2>
+        <div className="home__presentation-container">
+          <div className="home__presentation-photo">
+            <img src={Dev} alt="photo de moi" className="home__photo" />
           </div>
-          <div class="home__presentation-text">
+          <div className="home__presentation-text">
             <p>
               Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par
               le développement web. J'ai décidé de me reconvertir dans ce
