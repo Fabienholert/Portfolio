@@ -2,27 +2,22 @@ import PropTypes from "prop-types";
 import React, { useState } from "react";
 import Modal from "react-modal";
 import "./card.scss";
-
 function Card({ project, onCardClick }) {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-
+  const [modalIsOpen, setModalIsOpen] = useState(!1);
   const openModal = () => {
     if (!modalIsOpen) {
-      setModalIsOpen(true);
+      setModalIsOpen(!0);
     }
   };
-
   const closeModal = () => {
-    setModalIsOpen(false);
+    setModalIsOpen(!1);
   };
-
   const { id, card, modal } = project;
   const { title, image, details } = card;
   const { description, tags } = details;
   const { title: modalTitle, content } = modal;
   const { context, challenge, rightColon } = content;
   const { links, technologies } = rightColon;
-
   return (
     <div className="card" onClick={openModal}>
       <img src={image} alt={title} className="card-image" />
@@ -38,7 +33,6 @@ function Card({ project, onCardClick }) {
           ))}
         </div>
       </div>
-
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
@@ -94,7 +88,6 @@ function Card({ project, onCardClick }) {
     </div>
   );
 }
-
 Card.propTypes = {
   project: PropTypes.shape({
     id: PropTypes.string.isRequired,
@@ -131,5 +124,4 @@ Card.propTypes = {
   }).isRequired,
   onCardClick: PropTypes.func.isRequired,
 };
-
 export default Card;
