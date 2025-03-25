@@ -68,27 +68,33 @@
     flex-direction: column;
     text-align: center;
 
-    &__presentation-titre {
+    &-titre {
       font-size: vars.$font-size-h2;
     }
 
-    &__presentation-container {
+    &-container {
       display: grid;
       grid-template-columns: 1fr 1fr;
       width: 100%;
+      align-items: center;
+
+      @include m.mobile {
+        grid-template-columns: 1fr;
+      }
     }
 
     .home__photo {
       width: 100%;
       object-fit: cover;
-      margin: 0; // Conservez cette limite si vous le souhaitez
+      margin: 0;
+      border-radius: 50%;
 
       @include m.tablet {
         max-width: none; // Supprimez la limite sur tablette
       }
 
-      @include m.desktop {
-        width: 50%;
+      @include m.mobile {
+        width: 100%;
       }
     }
   }
