@@ -126,6 +126,10 @@
   gap: 20px;
   outline: none;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  @include mix.mobile {
+    gap: 0px;
+    grid-template-columns: 1fr;
+  }
 }
 
 .react-modal-close {
@@ -145,6 +149,12 @@
 .modal-sextion {
   order: 1; // Affiche cette section en deuxième position
   margin-bottom: 20px; // Conservez votre marge
+  p {
+    @include mix.mobile {
+      margin-bottom: 0px;
+      font-size: 0.9em;
+    }
+  }
 }
 
 .react-modal-content > h2 {
@@ -157,19 +167,20 @@
 
   p {
     @include mix.mobile {
+      margin-bottom: 0px;
       font-size: 0.9em;
     }
   }
 }
 
 .modal-section h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 10px;
   color: vars.$primary-color;
 }
 
 .modal-sextion h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 10px;
   color: vars.$primary-color;
 }
