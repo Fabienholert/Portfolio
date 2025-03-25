@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Dev from "../../../public/images/dev.webp";
-import Photo from "../../../public/images/moi.webp";
+import Dev from "../../../public/images/dev.webp"; // Image de presentation
+import Photo from "../../../public/images/moi.webp"; // Image banniere
 import Competence from "../../components/competence/Competence";
 import Formulaire from "../../components/formulaire/Formulaire";
 import Projet from "../../components/projet/Projet";
@@ -30,19 +30,16 @@ export default function Home() {
           </a>
         </div>
       </section>
-      <section id="presentation" className="home__presentation">
-        <div className="home__presentation-text">
-          <h2 className="home__presentation-titre">Présentation</h2>
-          <p className="home__presentation-description">
-            Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par le
-            développement web. J'ai décidé de me reconvertir dans ce domaine et
-            j'ai commencé une formation chez OpenClassrooms pour devenir
-            développeur web. J'ai déjà acquis des compétences en HTML, CSS,
-            Javascript, React et Node.js pour devenir un développeur web.
-          </p>
+      <section id="presentation" class="home__presentation">
+        <h2 class="home__presentation-titre">Présentation</h2>
+        <div class="home__presentation-photo">
+          <img src={Dev} alt="photo de moi" class="home__photo" />
         </div>
-        <div className="home__presentation-image">
-          <img src={Dev} alt="photo de moi" className="home__photo" />
+        <div class="home__presentation-text">
+          <p>
+            Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par le
+            développement web.
+          </p>
         </div>
       </section>
       <section id="competences" className="home__competence">

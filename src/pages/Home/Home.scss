@@ -64,66 +64,19 @@
   //** Présentation//
 
   &__presentation {
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr; // Deux colonnes par défaut (tablette et desktop)
     align-items: center;
     margin-left: 10px;
 
-    @include m.tablet {
-      flex-direction: row;
-    }
-
-    @include m.desktop {
-      flex-direction: row;
-    }
-  }
-  &__presentation-text {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    align-items: center;
-
-    @include m.tablet {
-      width: 50%;
-    }
-
-    @include m.desktop {
-      width: 50%;
-    }
-
     @include m.mobile {
-      width: 80%;
-    }
-  }
-
-  &__presentation-titre {
-    font-size: vars.$font-size-h1;
-  }
-
-  &__description {
-    line-height: 1.6;
-    text-align: justify;
-  }
-
-  &__presentation-image {
-    width: 45%;
-
-    @include m.tablet {
-      width: 50%;
+      grid-template-columns: 1fr; // une seule colonne en mobile
+      text-align: center;
     }
 
-    @include m.desktop {
-      width: 50%;
+    &__presentation-titre {
+      font-size: vars.$font-size-h2;
     }
-  }
-
-  &__photo {
-    border-radius: vars.$border-radius;
-    margin: 20px auto;
-    display: block;
-    float: right;
-    border-radius: 50%;
-    width: 80%;
-    object-fit: contain;
   }
 
   //** competence
@@ -138,6 +91,7 @@
       display: flex;
       justify-content: center;
     }
+
     .competence__container {
       width: 100%;
       display: flex;
@@ -145,6 +99,7 @@
 
       th {
         font-size: vars.$font-size-h3;
+
         @include m.mobile {
           font-size: vars.$font-size-h3;
         }
@@ -154,8 +109,10 @@
         text-align: center;
         vertical-align: middle;
       }
+
       img {
         max-width: 100px;
+
         @include m.mobile {
           width: 50%;
           height: 50%;
@@ -163,6 +120,7 @@
       }
     }
   }
+
   // Projet//
 
   &__projet {
@@ -173,11 +131,13 @@
       margin-bottom: 40px;
       margin-top: 40px;
     }
+
     .projet__container {
       display: flex;
       flex-direction: column;
       gap: 30px;
     }
+
     .card-list {
       display: grid;
       grid-template-columns: 1fr 1fr; // Par défaut, 2 colonnes
