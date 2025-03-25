@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
-  "homepage": "https://Fabienholert.github.io/fabien-portfolio/",
+  "homepage": "https://Fabienholert.github.io/portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
