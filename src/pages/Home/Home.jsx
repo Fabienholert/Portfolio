@@ -19,7 +19,7 @@ export default function Home() {
     <div>
       <section id="accueil" className="home__banner">
         <div className="home__banner-image">
-          <img src={Dev} alt="image developpeur" className="home__dev" />
+          <img src={Photo} alt="image developpeur" className="home__dev" />
         </div>
         <div className="home__banner-text">
           <h1 className="home__nom">
@@ -42,7 +42,7 @@ export default function Home() {
           </p>
         </div>
         <div className="home__presentation-image">
-          <img src={Photo} alt="photo de moi" className="home__photo" />
+          <img src={Dev} alt="photo de moi" className="home__photo" />
         </div>
       </section>
       <section id="competences" className="home__competence">
