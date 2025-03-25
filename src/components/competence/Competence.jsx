@@ -1,6 +1,5 @@
 import React from "react";
 import competencesData from "../../divers/json/competences.json";
-
 export default function Competence() {
   return (
     <div className="competence__container">
@@ -18,7 +17,7 @@ export default function Competence() {
               <td key={category}>
                 <ul style={{ listStyleType: "none" }}>
                   {" "}
-                  {/* ADDED: Remove bullets */}
+                  {}
                   {competencesData.competences[category]?.technologie.map(
                     (tech, index) => (
                       <li key={index}>
