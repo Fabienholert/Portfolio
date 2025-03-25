@@ -1,41 +1,27 @@
 import React, { useState } from "react";
 import "./formulaire.scss";
-
 function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
   const handleChangeName = (event) => {
     setName(event.target.value);
   };
-
   const handleChangeEmail = (event) => {
     setEmail(event.target.value);
   };
-
   const handleChangeMessage = (event) => {
     setMessage(event.target.value);
   };
-
   const handleSubmit = async (event) => {
     event.preventDefault();
-
-    const formData = {
-      name: name,
-      email: email,
-      message: message,
-    };
-
+    const formData = { name: name, email: email, message: message };
     try {
       const response = await fetch("https://formspree.io/f/xanejdlw", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-
       if (response.ok) {
         console.log("Message envoyé avec succès !");
         setName("");
@@ -48,7 +34,6 @@ function ContactForm() {
       console.error("Erreur réseau:", error);
     }
   };
-
   return (
     <form onSubmit={handleSubmit}>
       <div>
@@ -72,5 +57,4 @@ function ContactForm() {
     </form>
   );
 }
-
 export default ContactForm;

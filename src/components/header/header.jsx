@@ -1,7 +1,6 @@
 import React from "react";
 import MonLogo from "../../../public/images/monLogo.png";
 import "./header.scss";
-
 export default function Header() {
   return (
     <header className="header">

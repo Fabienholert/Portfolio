@@ -1,7 +1,5 @@
-// ConfigModal.jsx
 import { useEffect } from "react";
 import Modal from "react-modal";
-
 function ConfigModal() {
   useEffect(() => {
     try {
@@ -13,8 +11,6 @@ function ConfigModal() {
       );
     }
   }, []);
-
   return null;
 }
-
 export default ConfigModal;
