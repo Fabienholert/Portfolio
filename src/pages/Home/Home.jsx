@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Dev from "../../../public/images/dev.webp"; // Image de presentation
-import Photo from "../../../public/images/moi.webp"; // Image banniere
+import Dev from "../../../public/images/dev.webp";
+import Photo from "../../../public/images/moi.webp";
 import Competence from "../../components/competence/Competence";
 import Formulaire from "../../components/formulaire/Formulaire";
 import Projet from "../../components/projet/Projet";
@@ -8,13 +8,11 @@ import data from "../../divers/json/projets.json";
 import "../../divers/variablesmixin/_mixins.scss";
 import "../../divers/variablesmixin/_variables.scss";
 import "./Home.scss";
-
 export default function Home() {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     setProjects(data);
   }, []);
-
   return (
     <div>
       <section id="accueil" className="home__banner">
@@ -23,7 +21,7 @@ export default function Home() {
         </div>
         <div className="home__banner-text">
           <h1 className="home__nom">
-            Bienvenue, je suis Fabien Holert, Développeur Web
+            Bienvenue,je suis Fabien Holert,Développeur Web
           </h1>
           <a href="#mes_projets" className="home__button">
             Mes projets
@@ -39,10 +37,10 @@ export default function Home() {
           <div className="home__presentation-text">
             <p>
               Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par
-              le développement web. J'ai décidé de me reconvertir dans ce
-              domaine et j'ai commencé une formation chez OpenClassrooms dans ce
-              but. J'ai déjà acquis des compétences en HTML, CSS, Javascript,
-              React et Node.js pour devenir un développeur web.
+              le développement web.J'ai décidé de me reconvertir dans ce domaine
+              et j'ai commencé une formation chez OpenClassrooms dans ce
+              but.J'ai déjà acquis des compétences en HTML,CSS,Javascript,React
+              et Node.js pour devenir un développeur web.
             </p>
           </div>
         </div>

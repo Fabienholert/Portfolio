@@ -3,7 +3,6 @@ import "./App.scss";
 import ConfigModal from "./components/modal/configModal.jsx";
 import Layout from "./layout.jsx";
 import Home from "./pages/Home/Home.jsx";
-
 export default function App() {
   return (
     <div id="accueil" className="App">
