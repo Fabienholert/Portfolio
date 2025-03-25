@@ -16,7 +16,7 @@
         ],
         "info": "Projet de préparation à la recherche d'emploi."
       },
-      "image": "./divers/images/projet8.png",
+      "image": "./images/projet8.png",
       "title": "Portfolio Développeur"
     },
     "modal": {
@@ -38,10 +38,10 @@
             }
           ],
           "technologies": [
-            "/images/html.png",
-            "/images/css.png",
-            "/images/javascript.png",
-            "/images/react.png"
+            "./images/html.png",
+            "./images/css.png",
+            "./images/javascript.png",
+            "./images/react.png"
           ]
         }
       }
@@ -62,7 +62,7 @@
         ],
         "info": "Mission de remplacement pour la préparation et la planification du projet."
       },
-      "image": "/images/projet7.png",
+      "image": "./images/projet7.png",
       "title": "Menu Maker - Planification"
     },
     "modal": {
@@ -83,7 +83,7 @@
               "href": "https://purrfect-climb-5b4.notion.site/1a634fd5eaa680d1bbcbc84ba4fdce4e?v=1a634fd5eaa681288306000c0b580f1a"
             }
           ],
-          "technologies": ["/images/notion.png"]
+          "technologies": ["./images/notion.png"]
         }
       }
     }
@@ -98,7 +98,7 @@
         "tags": ["Node.js", "Express", "MongoDB", "API", "Back-end"],
         "info": "Mission freelance en partenariat avec un développeur front-end expérimenté."
       },
-      "image": "/images/projet6.png",
+      "image": "./images/projet6.png",
       "title": "Mon Vieux Grimoire"
     },
     "modal": {
@@ -120,9 +120,9 @@
             }
           ],
           "technologies": [
-            "/images/nodejs.png",
-            "/images/express.png",
-            "/images/mongodb.png"
+            "./images/nodejs.png",
+            "./images/express.png",
+            "./images/mongodb.png"
           ],
           "categorie": "Backend"
         }
@@ -145,7 +145,7 @@
         ],
         "info": "Mission freelance pour implémenter la nouvelle interface utilisateur."
       },
-      "image": "/images/projet5.png",
+      "image": "./images/projet5.png",
       "title": "Kasa"
     },
     "modal": {
@@ -170,7 +170,7 @@
               "href": "https://github.com/Fabienholert/-projet5-kasa"
             }
           ],
-          "technologies": ["/images/javascript.png", "/images/react.png"]
+          "technologies": ["./images/javascript.png", "./images/react.png"]
         }
       }
     }
@@ -192,7 +192,7 @@
         ],
         "info": "Mission freelance pour améliorer la visibilité et l'expérience utilisateur."
       },
-      "image": "/images/projet4.png",
+      "image": "./images/projet4.png",
       "title": "SEO Nina Carducci"
     },
     "modal": {
@@ -218,9 +218,9 @@
             }
           ],
           "technologies": [
-            "/images/html.png",
-            "/images/css.png",
-            "/images/javascript.png"
+            "./images/html.png",
+            "./images/css.png",
+            "./images/javascript.png"
           ]
         }
       }
@@ -236,7 +236,7 @@
         "tags": ["React", "JavaScript", "API", "Frontend"],
         "info": "Projet de renfort au sein d'une équipe de développement front-end."
       },
-      "image": "/images/projet3.png",
+      "image": "./images/projet3.png",
       "title": "Portfolio Architecte"
     },
     "modal": {
@@ -258,10 +258,10 @@
             }
           ],
           "technologies": [
-            "/images/react.png",
-            "/images/javascript.png",
-            "/images/html.png",
-            "/images/css.png"
+            "./images/react.png",
+            "./images/javascript.png",
+            "./images/html.png",
+            "./images/css.png"
           ]
         }
       }
@@ -277,7 +277,7 @@
         "tags": ["HTML", "CSS", "Responsive Design"],
         "info": "Projet d'alternance au sein de la start-up Booki."
       },
-      "image": "/images/projet2.png",
+      "image": "./images/projet2.png",
       "title": "Booki"
     },
     "modal": {
@@ -299,9 +299,9 @@
             }
           ],
           "technologies": [
-            "/images/html.png",
-            "/images/css.png",
-            "/images/github.png"
+            "./images/html.png",
+            "./images/css.png",
+            "./images/github.png"
           ]
         }
       }
