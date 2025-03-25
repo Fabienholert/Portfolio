@@ -19,13 +19,13 @@
     }
 
     &.active {
-      background-color: #007bff;
+      background-color: #208368;
       color: white;
     }
 
     &:focus {
       outline: none; // Enlever la bordure au focus
-      box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); // Ajouter une ombre au focus
+      box-shadow: 0 0 0 2px rgba(6, 6, 6, 0.5); // Ajouter une ombre au focus
     }
   }
 
