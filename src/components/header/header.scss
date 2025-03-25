@@ -42,7 +42,9 @@
     margin: 0;
 
     @include m.mobile {
+      gap: 5px;
       font-size: small;
+      align-items: end;
     }
   }
 
