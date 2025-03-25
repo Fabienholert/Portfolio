@@ -64,18 +64,32 @@
   //** Présentation//
 
   &__presentation {
-    display: grid;
-    grid-template-columns: 3fr; // Deux colonnes par défaut (tablette et desktop)
-    align-items: center;
-    margin-left: 10px;
-
-    @include m.mobile {
-      grid-template-columns: 1fr; // une seule colonne en mobile
-      text-align: center;
-    }
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
     &__presentation-titre {
       font-size: vars.$font-size-h2;
+    }
+
+    &__presentation-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+    }
+
+    .home__photo {
+      width: 100%;
+      object-fit: cover;
+      margin: 0; // Conservez cette limite si vous le souhaitez
+
+      @include m.tablet {
+        max-width: none; // Supprimez la limite sur tablette
+      }
+
+      @include m.desktop {
+        width: 50%;
+      }
     }
   }
 

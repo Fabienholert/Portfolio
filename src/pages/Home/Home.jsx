@@ -32,14 +32,16 @@ export default function Home() {
       </section>
       <section id="presentation" class="home__presentation">
         <h2 class="home__presentation-titre">Présentation</h2>
-        <div class="home__presentation-photo">
-          <img src={Dev} alt="photo de moi" class="home__photo" />
-        </div>
-        <div class="home__presentation-text">
-          <p>
-            Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par le
-            développement web.
-          </p>
+        <div class="home__presentation-container">
+          <div class="home__presentation-photo">
+            <img src={Dev} alt="photo de moi" class="home__photo" />
+          </div>
+          <div class="home__presentation-text">
+            <p>
+              Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par
+              le développement web.
+            </p>
+          </div>
         </div>
       </section>
       <section id="competences" className="home__competence">
