@@ -39,7 +39,10 @@ export default function Home() {
           <div class="home__presentation-text">
             <p>
               Je m'appelle Fabien Holert, j'ai 40 ans et je suis passionné par
-              le développement web.
+              le développement web. J'ai décidé de me reconvertir dans ce
+              domaine et j'ai commencé une formation chez OpenClassrooms dans ce
+              but. J'ai déjà acquis des compétences en HTML, CSS, Javascript,
+              React et Node.js pour devenir un développeur web.
             </p>
           </div>
         </div>
