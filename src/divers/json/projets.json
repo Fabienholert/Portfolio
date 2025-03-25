@@ -162,8 +162,8 @@
         "rightColon": {
           "links": [
             {
-              "text": "Lien vers le prototype du site",
-              "href": "lien_vers_le_prototype_site_kasa"
+              "text": "Lien vers Kasa",
+              "href": "https://fabienholert.github.io/kasa/"
             },
             {
               "text": "Lien GitHub",
@@ -210,7 +210,7 @@
           "links": [
             {
               "text": "Lien vers le site Nina Carducci",
-              "href": "https://nina-carducci.github.io"
+              "href": "https://fabienholert.github.io/nina-carducci/"
             },
             {
               "text": "Lien GitHub",
@@ -253,6 +253,10 @@
         "rightColon": {
           "links": [
             {
+              "text": "Lien vers Sophie Bluel",
+              "href": "https://fabienholert.github.io/sophie-bluel/"
+            },
+            {
               "text": "Lien GitHub",
               "href": "https://github.com/Fabienholert/Projet3"
             }
@@ -293,6 +297,10 @@
         },
         "rightColon": {
           "links": [
+            {
+              "text": "Lien vers Booki",
+              "href": "https://fabienholert.github.io/projet-2/"
+            },
             {
               "text": "lien GitHub",
               "href": "https://github.com/Fabienholert/projet-2"
