@@ -21,7 +21,8 @@
   &__dev {
     width: 100%;
     object-fit: cover;
-    max-width: 600px; // Conservez cette limite si vous le souhaitez
+    max-width: 600px;
+    margin: 0; // Conservez cette limite si vous le souhaitez
 
     @include m.tablet {
       max-width: none; // Supprimez la limite sur tablette
